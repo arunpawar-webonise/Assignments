@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <form id="form">
+        <input type="text" id="name" placeholder="enter name" required><br><br>
+        <input type="text" id="email" placeholder="enter email" required><br><br>
+        <button>Submit</button>
+    </form>
+    <br><br>
+    <button id="showuser">SHOW USERS</button>
+    <br><br>
+    <table border="1" class="table">
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td id="td1name"></td>
+            <td id="td1email"></td>
+        </tr>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
